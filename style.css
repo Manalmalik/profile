@@ -1,0 +1,97 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+
+/*tag*/
+body{
+  background-color: #eeeeee;
+  font-family: 'Lora', serif;
+  color: #575F7D;
+  font-size: 17px;
+  line-height: 1;
+  font-weight: lighter;
+}
+
+h1,h3 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 4px 4px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a{
+  color: #848ccf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #87556f;
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 100px;
+}
+
+/* ID */
+
+#introduction p{
+  display: block;
+  margin-bottom: 40px;
+}
+
+/* CLASS */
+.container{
+  width: 750px;
+  margin: 40px auto;
+}
+
+.card{
+  background-color:  white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.btn-blue {
+  background-color: #848ccf;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 50px 50px;
+}
+
+/*  VIEWPORT  */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .btn-blue {
+  margin: 0 auto;
+  padding: 5px;
+}
+}
